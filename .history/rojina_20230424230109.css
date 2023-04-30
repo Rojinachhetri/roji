@@ -1,0 +1,61 @@
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+        font-family: RobotO, sans-serif;
+    }
+    
+    .container {
+        width: 450px;
+        height: 550px;
+        background-color: aliceblue;
+        border: 3px solid #1c5a85;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 150px 50px 350px;
+        padding: 0px 10px 10px 10px;
+        border-radius: 12px 12px 12px 12px;
+    }
+    
+    .hero {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 15px;
+    }
+    
+    .hero_text {
+        font-size: 25px;
+    }
+    
+    .hero_text .name {
+        text-decoration: underline;
+        color: #1c5a85;
+        font-weight: bolder;
+    }
+    
+    .header {
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 60px;
+    }
+    
+    .hero1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .student {
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: 'Times New Roman', Times, serif;
+        color: red;
+    }
+    
+    .id {
+        font-size: 20px;
+        margin-top: 30px;
+        font-weight: bold;
+    }
